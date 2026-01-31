@@ -284,7 +284,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 390700917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a82b0ca95d1304846a597e96cefecb92, type: 3}
+  m_Script: {fileID: 11500000, guid: 38a6e80858a9b4bbd8b2b8e2a12791c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
   startButton: {fileID: 1229695872}
