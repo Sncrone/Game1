@@ -23,20 +23,18 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Possess",
+                    "type": "Button",
+                    "id": "909a1105-377b-4e7d-ac25-1ab8dcd33c75",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "978bfe49-cc26-4a3d-ab7b-7d7a29327403",
-                    "path": "<Gamepad>/leftStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "AD",
                     "id": "00ca640b-d935-4593-8157-c05846ea39b3",
@@ -105,12 +103,12 @@
                 },
                 {
                     "name": "",
-                    "id": "ad86c5c0-a3a7-49e5-8c49-5d3a3a3ad29b",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "f7f15609-103d-4944-aa20-f799a5dc2e59",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Jump",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Possess",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
