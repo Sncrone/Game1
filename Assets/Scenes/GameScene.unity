@@ -392,7 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
   startButton: {fileID: 1229695872}
   quitButton: {fileID: 1156181711}
-  gameSceneName: SampleScene
+  gameSceneName: MuseumScene
 --- !u!4 &390700919
 Transform:
   m_ObjectHideFlags: 0
