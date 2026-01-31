@@ -586,6 +586,7 @@ GameObject:
   - component: {fileID: 1419545059}
   - component: {fileID: 1419545054}
   - component: {fileID: 1419545060}
+  - component: {fileID: 1419545061}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -878,6 +879,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 436370c156984964b928631eb5e3df8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControllableCharacter
+--- !u!114 &1419545061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419545053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428bdbabc508d48d8b6e6a560f4b8c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnOnFall
+  fallThreshold: -10
+  respawnPosition: {x: 0, y: -1.2, z: 0}
+  respawnPoint: {fileID: 0}
 --- !u!1 &1442539390
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,8 +909,9 @@ GameObject:
   - component: {fileID: 1442539398}
   - component: {fileID: 1442539395}
   - component: {fileID: 1442539394}
+  - component: {fileID: 1442539399}
   m_Layer: 3
-  m_Name: NPC
+  m_Name: Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1185,6 +1202,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1442539399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442539390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428bdbabc508d48d8b6e6a560f4b8c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnOnFall
+  fallThreshold: -10
+  respawnPosition: {x: 0, y: -1.2, z: 0}
+  respawnPoint: {fileID: 0}
 --- !u!1 &1496738591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,8 +1278,9 @@ GameObject:
   - component: {fileID: 1612786760}
   - component: {fileID: 1612786759}
   - component: {fileID: 1612786758}
+  - component: {fileID: 1612786765}
   m_Layer: 3
-  m_Name: NPC (1)
+  m_Name: GigaChad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1538,6 +1571,21 @@ Transform:
   - {fileID: 103684086}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1612786765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612786757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428bdbabc508d48d8b6e6a560f4b8c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnOnFall
+  fallThreshold: -10
+  respawnPosition: {x: 0, y: -1.2, z: 0}
+  respawnPoint: {fileID: 0}
 --- !u!1 &1739992149
 GameObject:
   m_ObjectHideFlags: 0
