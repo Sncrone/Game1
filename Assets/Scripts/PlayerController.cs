@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.2f;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask NpcLayer;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -54,12 +55,28 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGround()
     {
-        isGrounded = Physics2D.OverlapCircle(
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
             groundCheck.position,
-            groundCheckRadius,
-            groundLayer
+            groundCheckRadius
         );
+
+        isGrounded = false;
+
+        foreach (var hit in hits)
+        {
+            // Kendi collider'ýmýzý görmezden gel
+            if (hit.transform == transform)
+                continue;
+
+            // Sadece ground layer
+            if (hit.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            {
+                isGrounded = true;
+                break;
+            }
+        }
     }
+
 
     private void OnDrawGizmosSelected()
     {
