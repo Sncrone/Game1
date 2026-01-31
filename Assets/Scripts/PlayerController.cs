@@ -18,16 +18,25 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isGrounded;
+    private CharacterSounds sounds; // ADD THIS
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        sounds = GetComponent<CharacterSounds>(); // ADD THIS
     }
 
     private void FixedUpdate()
     {
         CheckGround();
         Move();
+        
+        // ADD THIS - Play walk sound
+        if (sounds != null)
+        {
+            bool isMoving = Mathf.Abs(moveInput.x) > 0.1f;
+            sounds.PlayWalkSound(isMoving, isGrounded);
+        }
     }
 
     // Input System callback
@@ -64,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
         foreach (var hit in hits)
         {
-            // Kendi collider'ýmýzý görmezden gel
+            // Kendi collider'Ã½mÃ½zÃ½ gÃ¶rmezden gel
             if (hit.transform == transform)
                 continue;
 
