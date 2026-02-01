@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: b412d560f974d494cbfb21d9cde810d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4616059892275707948
+    second: ggj26 assets_0
+  - first:
+      213: 4899024865302349209
+    second: ggj26 assets_1
+  - first:
+      213: 1265759774686449694
+    second: ggj26 assets_2
+  - first:
+      213: -7802842753102094264
+    second: ggj26 assets_3
+  - first:
+      213: -5979626491947917739
+    second: ggj26 assets_4
+  - first:
+      213: -9086096543786292680
+    second: ggj26 assets_5
+  - first:
+      213: 5649668315733799513
+    second: ggj26 assets_6
+  - first:
+      213: -3360681702973461811
+    second: ggj26 assets_7
+  - first:
+      213: 4076895160156759702
+    second: ggj26 assets_8
+  - first:
+      213: 8609552732876772168
+    second: ggj26 assets_9
+  - first:
+      213: -2245857035299071066
+    second: ggj26 assets_10
+  - first:
+      213: -3934675928046923957
+    second: ggj26 assets_11
+  - first:
+      213: 4160262103014822138
+    second: ggj26 assets_12
+  - first:
+      213: -8606822350853550766
+    second: ggj26 assets_13
+  - first:
+      213: -1795431828120540534
+    second: ggj26 assets_14
+  - first:
+      213: -48532746720755505
+    second: ggj26 assets_15
+  - first:
+      213: 7440832601496265656
+    second: ggj26 assets_16
+  - first:
+      213: 7258179094735481610
+    second: ggj26 assets_17
+  - first:
+      213: -3071826330432778291
+    second: ggj26 assets_18
+  - first:
+      213: 2166453699991482888
+    second: ggj26 assets_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ggj26 assets_0
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1609
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20850dd30a8f0040800000000000000
+      internalID: 4616059892275707948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1609
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995072aa825dcf340800000000000000
+      internalID: 4899024865302349209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_2
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1499
+        width: 232
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e101a2d0fc1e09110800000000000000
+      internalID: 1265759774686449694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_3
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1489
+        width: 112
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8406e177bdbb6b390800000000000000
+      internalID: -7802842753102094264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_4
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1489
+        width: 92
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55edde11369140da0800000000000000
+      internalID: -5979626491947917739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_5
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1489
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83aa6b86553b7e180800000000000000
+      internalID: -9086096543786292680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1499
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952b7126667a76e40800000000000000
+      internalID: 5649668315733799513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_7
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1499
+        width: 122
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaac1bfbc57c51d0800000000000000
+      internalID: -3360681702973461811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_8
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1489
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69627af3c8a049830800000000000000
+      internalID: 4076895160156759702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1159
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8431d1e58964b7770800000000000000
+      internalID: 8609552732876772168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1159
+        width: 112
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abdfaaecec15d0e0800000000000000
+      internalID: -2245857035299071066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1159
+        width: 242
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f8b7a17193569c0800000000000000
+      internalID: -3934675928046923957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_12
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1159
+        width: 122
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0d7b637583cb930800000000000000
+      internalID: 4160262103014822138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_13
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 999
+        width: 272
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d4b7c3cac6e8880800000000000000
+      internalID: -8606822350853550766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_14
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 679
+        width: 1282
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ae172d3485517e0800000000000000
+      internalID: -1795431828120540534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_15
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 999
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc04cb759b3935ff0800000000000000
+      internalID: -48532746720755505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_16
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 999
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3a45de3d5234760800000000000000
+      internalID: 7440832601496265656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_17
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 999
+        width: 92
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0befd16e6b3ab460800000000000000
+      internalID: 7258179094735481610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_18
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 379
+        width: 162
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfccda4a3eae55d0800000000000000
+      internalID: -3071826330432778291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggj26 assets_19
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 39
+        width: 642
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802b25a692ac01e10800000000000000
+      internalID: 2166453699991482888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ggj26 assets_0: 4616059892275707948
+      ggj26 assets_1: 4899024865302349209
+      ggj26 assets_10: -2245857035299071066
+      ggj26 assets_11: -3934675928046923957
+      ggj26 assets_12: 4160262103014822138
+      ggj26 assets_13: -8606822350853550766
+      ggj26 assets_14: -1795431828120540534
+      ggj26 assets_15: -48532746720755505
+      ggj26 assets_16: 7440832601496265656
+      ggj26 assets_17: 7258179094735481610
+      ggj26 assets_18: -3071826330432778291
+      ggj26 assets_19: 2166453699991482888
+      ggj26 assets_2: 1265759774686449694
+      ggj26 assets_3: -7802842753102094264
+      ggj26 assets_4: -5979626491947917739
+      ggj26 assets_5: -9086096543786292680
+      ggj26 assets_6: 5649668315733799513
+      ggj26 assets_7: -3360681702973461811
+      ggj26 assets_8: 4076895160156759702
+      ggj26 assets_9: 8609552732876772168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
