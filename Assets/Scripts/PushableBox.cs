@@ -4,7 +4,6 @@ using UnityEngine;
 public class PushableBox : MonoBehaviour
 {
     [SerializeField] private string allowedTag = "BoxPusher";
-    [SerializeField] private float minPushSpeed = 0.1f;
 
     private Rigidbody2D boxRb;
 

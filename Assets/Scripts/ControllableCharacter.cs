@@ -34,6 +34,7 @@ public class ControllableCharacter : MonoBehaviour
 
         if (playerInput)
             playerInput.enabled = true;
+            playerInput.ActivateInput();
 
         if (col)
             col.enabled = true;

@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
@@ -20,17 +21,23 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private CharacterSounds sounds; // ADD THIS
 
+    private Animator animator;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sounds = GetComponent<CharacterSounds>(); // ADD THIS
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {
         CheckGround();
         Move();
-        
+
+        animator.SetFloat("Speed", Mathf.Abs(moveInput.x));
+        animator.SetBool("IsGrounded", isGrounded);
+
         // ADD THIS - Play walk sound
         if (sounds != null)
         {
@@ -38,6 +45,7 @@ public class PlayerController : MonoBehaviour
             sounds.PlayWalkSound(isMoving, isGrounded);
         }
     }
+    
 
     // Input System callback
     public void OnMove(InputAction.CallbackContext context)
