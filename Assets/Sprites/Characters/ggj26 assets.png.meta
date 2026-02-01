@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b412d560f974d494cbfb21d9cde810d8
+guid: bfb83fea0a9898b429038c65b67d0723
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,7 +105,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -132,7 +132,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,6 +153,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -160,12 +173,12 @@ TextureImporter:
       name: ggj26 assets_0
       rect:
         serializedVersion: 2
-        x: 499
+        x: 498
         y: 1609
-        width: 52
-        height: 42
+        width: 54
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,10 +197,10 @@ TextureImporter:
         serializedVersion: 2
         x: 609
         y: 1609
-        width: 42
-        height: 42
+        width: 43
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,11 +218,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 859
-        y: 1499
+        y: 1498
         width: 232
-        height: 122
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +239,12 @@ TextureImporter:
       name: ggj26 assets_3
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 1489
-        width: 112
-        height: 152
+        x: 1138
+        y: 1488
+        width: 114
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +261,12 @@ TextureImporter:
       name: ggj26 assets_4
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 1489
-        width: 92
-        height: 162
+        x: 1278
+        y: 1488
+        width: 94
+        height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,11 +284,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 509
-        y: 1489
+        y: 1488
         width: 32
-        height: 52
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +305,12 @@ TextureImporter:
       name: ggj26 assets_6
       rect:
         serializedVersion: 2
-        x: 599
-        y: 1499
-        width: 52
-        height: 42
+        x: 598
+        y: 1498
+        width: 54
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +327,12 @@ TextureImporter:
       name: ggj26 assets_7
       rect:
         serializedVersion: 2
-        x: 699
-        y: 1499
-        width: 122
-        height: 82
+        x: 698
+        y: 1498
+        width: 124
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,11 +350,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1409
-        y: 1489
-        width: 92
-        height: 102
+        y: 1488
+        width: 93
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +371,12 @@ TextureImporter:
       name: ggj26 assets_9
       rect:
         serializedVersion: 2
-        x: 439
+        x: 438
         y: 1159
-        width: 72
-        height: 52
+        width: 74
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +393,12 @@ TextureImporter:
       name: ggj26 assets_10
       rect:
         serializedVersion: 2
-        x: 519
+        x: 518
         y: 1159
-        width: 112
-        height: 52
+        width: 114
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +415,12 @@ TextureImporter:
       name: ggj26 assets_11
       rect:
         serializedVersion: 2
-        x: 639
+        x: 638
         y: 1159
-        width: 242
-        height: 122
+        width: 244
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +437,12 @@ TextureImporter:
       name: ggj26 assets_12
       rect:
         serializedVersion: 2
-        x: 929
+        x: 928
         y: 1159
-        width: 122
-        height: 102
+        width: 124
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +459,12 @@ TextureImporter:
       name: ggj26 assets_13
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 999
-        width: 272
-        height: 292
+        x: 1088
+        y: 998
+        width: 274
+        height: 293
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +481,12 @@ TextureImporter:
       name: ggj26 assets_14
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 679
-        width: 1282
-        height: 482
+        x: 1598
+        y: 678
+        width: 1284
+        height: 484
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -491,11 +504,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 509
-        y: 999
+        y: 998
         width: 82
-        height: 112
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +525,12 @@ TextureImporter:
       name: ggj26 assets_16
       rect:
         serializedVersion: 2
-        x: 639
-        y: 999
-        width: 182
-        height: 92
+        x: 638
+        y: 998
+        width: 184
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -535,11 +548,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 859
-        y: 999
-        width: 92
-        height: 142
+        y: 998
+        width: 93
+        height: 143
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -557,11 +570,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1109
-        y: 379
-        width: 162
-        height: 482
+        y: 378
+        width: 163
+        height: 484
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +591,12 @@ TextureImporter:
       name: ggj26 assets_19
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 39
-        width: 642
-        height: 482
+        x: 1598
+        y: 38
+        width: 643
+        height: 484
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,7 +613,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f06d899d70532b94085d645f95aede0d
     internalID: 0
     vertices: []
     indices: 
@@ -608,7 +621,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       ggj26 assets_0: 4616059892275707948
       ggj26 assets_1: 4899024865302349209
